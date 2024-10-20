@@ -1,0 +1,91 @@
+/* 
+Declaration Block:
+
+selector{
+    property: value;
+    Property2: Value;
+}
+*/
+
+body{
+    background-color: beige;
+    color: rgb(0, 0, 0)
+}
+nav{
+    height: 100px;
+    width: 200px
+    float: left;
+    padding: 5px
+    line-hht: 30px;
+}
+
+/* This is the start of the styling for the navigation bar  */
+/* 
+ */
+ ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #aa040c;
+  }
+
+/* This is the end of the stlying for the navigation bar  */
+/* 
+ */
+nav img { 
+
+    /* float: right;  */
+    
+    width: 70px; /* Changing size of image */ 
+    height: 70px; /* Changing size of image */ 
+    float: left; 
+    
+    } 
+
+ h1{ 
+    text-align: center;
+}
+
+#ID {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); 
+
+}
+
+
+#Larryimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 500px;
+}
+
+
+
